@@ -1,0 +1,13 @@
+.hr {
+    display: block;
+    margin: 0 auto;
+    margin-top: 29px;
+    width: 50px;  
+    height: 3px;
+    background-color: $main-color;
+    border: none;
+    &__white {
+        margin-top: 30px;
+        background-color: #fff;
+    }
+}

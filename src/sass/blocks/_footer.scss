@@ -1,0 +1,26 @@
+.footer {
+    padding: 100px;
+    min-height: 307px;
+    background-color: $accent-color;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        padding: 7px 9px 12px 8px;
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        border: solid 2px #ffffff;
+        margin-right: 14px;
+    }
+    &__descr {
+        margin-top: 29px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}

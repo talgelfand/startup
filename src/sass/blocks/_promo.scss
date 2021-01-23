@@ -1,0 +1,45 @@
+.promo {
+    min-height: 770px;
+    background: url('../img/promo_bg.png') center (center/cover) no-repeat;
+    &__menu {
+        display: flex;
+        .logo {
+            margin: 43px 510px 0 228px;
+        }
+        nav {
+            margin-top: 43px;
+            margin-right: 34px;
+            cursor: pointer;
+            &:nth-child(8) {
+                margin-right: 0;
+            }
+        }
+        a {
+            font-size: 14px;
+            font-weight: 400;
+            color: #ffffff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__wrapper {
+        margin-top: 323px;
+    }
+    &__welcome {
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__descr {
+        margin-top: 34px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+    }
+}

@@ -1,0 +1,16 @@
+.contact {
+    padding-top: 99px;
+    min-height: 369px;
+    background: url('../../img/contact_bg.png') center (center/cover) no-repeat;
+    &__title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 1.47;
+        text-align: center;
+        color: #ffffff;
+    }
+    .button {
+        margin-top: 53px;
+    }
+}

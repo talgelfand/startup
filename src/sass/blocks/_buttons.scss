@@ -1,0 +1,27 @@
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+    border: solid 2px #ffffff;
+    background-color: rgba($color: #000000, $alpha: 0);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover {
+        background-color: #ffffff;
+        color: $accent-color;
+        font-weight: 700;
+    }
+    &__message {
+        margin: 0 38px 0 0;
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        border: solid 1px $main-color;
+        color: $main-color;
+    }
+}

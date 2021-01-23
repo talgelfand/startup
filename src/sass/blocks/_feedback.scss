@@ -1,0 +1,110 @@
+.feedback {
+    padding: 99px 0 101px 0;
+    &__wrapper {
+        display: flex;
+        margin-top: 75px;
+    }
+    &__info {
+        margin-right: 163px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 40px;
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+        &__title {
+            display: flex;
+            img {
+                margin-right: 17px;
+            }
+        }
+        &__text {
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            color: $main-color;
+            text-transform: uppercase;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-family: 'Roboto Slab', serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: left;
+            color: $main-color;
+            transform: translateX(20%);
+        }
+    }
+}
+
+.form {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__first-row {
+        display: flex;
+        flex-direction: row;
+    }
+    &__second-row {
+        display: flex;
+        flex-direction: row;
+    }
+    &__message {
+        margin-top: 21px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__subtitle {
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: $main-color;
+    }
+    &__span {
+        color: $accent-color;
+    }
+    input {
+        font-family: 'Roboto Slab', serif;
+        font-size: 12px;
+        font-weight: 400;
+        color: $main-color;
+        text-transform: uppercase;
+    }
+}
+
+.input {
+    &__first-row {
+        padding: 17px;
+        width: 350px;
+        height: 44px;
+        border: solid 1px $main-color;
+        margin-right: 30px;
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+    }
+    &__second-row {
+        padding: 17px;
+        margin-top: 21px;
+        width: 350px;
+        height: 44px;
+        border: solid 1px $main-color;
+        margin-right: 30px;
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+    }
+    &__message {
+        padding: 17px 17px 77px;
+        margin-top: 21px;
+        width: 730px;
+        height: 104px;
+        border: solid 1px $main-color;
+    }
+}

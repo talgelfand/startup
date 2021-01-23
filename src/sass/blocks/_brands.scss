@@ -1,0 +1,51 @@
+.brands {
+    background: url('../../img/brands_bg.png') center (center/cover) no-repeat;
+    padding: 98px 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    &__text {
+        &__descr {
+            margin-top: 68px;
+            font-family: 'Roboto Slab', serif;
+            font-style: italic;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+            color: $main-color;
+        }
+        &__author {
+            margin-top: 45px;
+            font-family: 'Roboto Slab', serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+            color: $main-color;
+        }
+    }
+    &__dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        &__item {
+            margin-right: 7px;
+            width: 13px;
+            height: 13px;
+            background-color: #dddddd;
+            border-radius: 100%;
+            transition: 1s;
+            &:hover {
+                cursor: pointer;
+                background-color: $accent-color;
+            }
+            &:nth-child(3) {
+                margin-right: 0;
+            }
+            
+        }
+    }
+}
